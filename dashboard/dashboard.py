@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Load data
-file_path = r"C:\Users\LEGION\Documents\VSCode\dashboard-interaktif\dashboard\all_data.csv"
+file_path = r"C:\Users\LEGION\Documents\GitHub\analisis-data-ecommerce\dashboard\all_data.csv"
 all_df = pd.read_csv(file_path, parse_dates=['order_approved_at'])
 
 # Konversi kolom tanggal agar dapat digunakan untuk analisis waktu
