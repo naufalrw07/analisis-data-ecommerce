@@ -32,6 +32,7 @@ category_orders_df = category_orders_df.sort_values(by="order_id", ascending=Fal
 
 st.set_page_config(page_title="Dashboard E-Commerce", layout="wide")
 st.title("📊 Dashboard E-Commerce")
+st.markdown("### by Naufal Rafly Wanhar")  
 
 # === TREN ORDER & REVENUE ===
 st.subheader("📈 Tren Order & Revenue")
